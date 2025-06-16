@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc{
+    height: 510px;
+    width: 250px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.scren{
+    height: 25%;
+    width: 100%;
+    overflow: none;
+}
+
+.scren input{
+    height: 100%;
+    width: 100%;
+    font-size: 2rem;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: right;
+    pointer-events: none;
+}
+
+/* .scren button{
+    position: relative;
+    z-index: 5; 
+    bottom: 40px;
+    left: 180px;
+    color: white;
+    background-color: transparent;
+} */
+
+.line{
+    height: 5%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.buttons{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn{
+    height: 46px;
+    width: 46px;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: -5px 13px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn:active{
+    font-size: 1.3em;
+}
+
+.btn-num{
+    background-color: rgba(255, 255, 255,0.2);
+    color: rgba(255, 255, 255,1);
+}
+
+.btn-logic{
+    background-color: rgba(255, 255, 255,0.4);
+    color: rgb(0, 255, 34);
+}
+
+.clear{
+    color: red;
+    background-color: rgba(255, 255, 255,0.3);
+}
+
+.equal{
+    font-size: 2em;
+    color: white;
+    background-color: rgb(0, 212, 0);
+}
